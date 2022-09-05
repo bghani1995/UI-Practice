@@ -2,11 +2,24 @@
 <html lang="en">
 <head>
     <title>Forms practice</title>
+
+    <style>
+        body{
+            background-color: palevioletred;
+        }
+        p{
+            background-color: cadetblue;
+        }
+
+    </style>
 </head>
 <body>
 
 
 <form>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque, blanditiis minima obcaecati quas recusandae sequi? Animi, deserunt,
+        dignissimos! Dicta eos incidunt libero molestias nobis praesentium provident quas qui tempore!</p>
     <p>
     Username:
         <input type="text" name="username" placeholder="Enter your username here">
@@ -41,6 +54,17 @@
     <input type="checkbox" name="course" value="DS">DS
     <input type="checkbox" name="course" value="UI">UI
     <input type="checkbox" name="course" value="softskills">SoftSkills
+
+    <p>Please select the course:</p>
+    <select name="course">
+        <option value="" disabled selected>Select a course</option>
+        <option value="jd">Java Developer</option>
+        <option value="sdet">Java SDET</option>
+        <option value="cs">Cyber Security</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Sign Up" onclick="alert('Thank you for signing up!')">
 
 
 
