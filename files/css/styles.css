@@ -6,3 +6,21 @@ p{
     font-size: 20px;
     font-family: "Agency FB";
 }
+
+.class1{
+    background-color: #F5EDDC;
+    font-size: 17px;
+    font-family:"Arial";
+    color: blueviolet;
+}
+
+
+
+.btn1{
+    background-color: darkcyan;
+    font-size: 25px;
+}
+
+.btnFont{
+    font-family: "Bookman Old Style";
+}
