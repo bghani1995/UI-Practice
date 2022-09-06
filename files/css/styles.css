@@ -21,6 +21,12 @@ p{
     font-size: 25px;
 }
 
-.btnFont{
+/*.btnFont{
     font-family: "Bookman Old Style";
+}
+ */
+
+.btn1:hover{
+    background-color:cadetblue;
+    font-size: 25px;
 }
